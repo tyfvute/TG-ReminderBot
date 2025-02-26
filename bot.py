@@ -28,7 +28,7 @@ TIME_FORMAT_REGEX = re.compile(r'^([01]?[0-9]|2[0-3]):[0-5][0-9]$')
 DATETIME_FORMAT_REGEX = re.compile(r'^\d{4}-\d{2}-\d{2} \d{2}:\d{2}$')
 
 # Инициализация бота и диспетчера
-API_TOKEN = '7696152863:AAG0TnyN9RfZUb5MZmO-zmqBOR6YOPMRYGk'  # Замените на ваш токен
+API_TOKEN = 'Api_token'
 bot = Bot(token=API_TOKEN)
 storage = MemoryStorage()
 dp = Dispatcher(storage=storage)
